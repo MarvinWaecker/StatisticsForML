@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # seed the random number generator
 seed(1)
 # generate univariate observations
-data = 5 * randn(10000) + 50
+data = 5 * randn(1000) + 50
 
 # plot distribution
 plt.hist(data)
